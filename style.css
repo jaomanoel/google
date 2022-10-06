@@ -66,7 +66,6 @@ main{
     justify-content: center top;
     align-items: center;
     flex-direction: column;
-    height: 73.3%;
 }
 
 main img{
@@ -149,6 +148,9 @@ main p > a:hover{
 }
 
 footer{
+    position: absolute;
+    top:85%;
+    width: 100%;
     background-color: #171717;
 }
 
@@ -219,6 +221,12 @@ footer a:hover{
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
+    }
+
+    footer{
+        position: absolute;
+        top:85%;
+        width: 100%;
     }
 
     footer .rodape{
